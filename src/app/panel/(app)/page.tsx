@@ -108,7 +108,7 @@ export default async function PanelPage() {
                   <a
                     href={`https://wa.me/${lead.telefono.replace(/\D/g, "")}`}
                     target="_blank"
-                    className="text-xs text-[#5b7a6b] hover:underline"
+                    className="text-xs text-[#e8630a] hover:underline"
                   >
                     {lead.telefono}
                   </a>

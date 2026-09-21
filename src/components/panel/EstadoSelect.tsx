@@ -9,7 +9,7 @@ const COLOR_ESTADO: Record<EstadoLead, string> = {
   agendado: "bg-blue-50 text-blue-700",
   en_proceso: "bg-amber-50 text-amber-700",
   terminado: "bg-emerald-50 text-emerald-700",
-  pagado: "bg-[#5b7a6b1a] text-[#5b7a6b]",
+  pagado: "bg-[#e8630a1a] text-[#e8630a]",
 };
 
 export default function EstadoSelect({
