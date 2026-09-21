@@ -27,7 +27,7 @@ function Campo({
         step={step ?? 1}
         value={value}
         onChange={(e) => onChange(parseFloat(e.target.value) || 0)}
-        className="w-full border border-[#e0ddd3] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#e8630a]"
+        className="w-full border border-[#e0ddd3] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#5b7a6b]"
       />
       {hint && <span className="block text-xs text-[#98958c] mt-1">{hint}</span>}
     </label>
@@ -110,7 +110,7 @@ export default function ConfigForm({ config }: { config: PricingConfig }) {
       <button
         onClick={guardar}
         disabled={pending}
-        className="bg-[#1a1a18] text-[#f2f0ea] font-semibold text-sm px-5 py-2.5 rounded hover:bg-[#e8630a] transition disabled:opacity-60"
+        className="bg-[#1a1a18] text-[#f2f0ea] font-semibold text-sm px-5 py-2.5 rounded hover:bg-[#5b7a6b] transition disabled:opacity-60"
       >
         {pending ? "Guardando…" : "Guardar cambios"}
       </button>

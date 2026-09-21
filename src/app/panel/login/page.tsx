@@ -25,7 +25,7 @@ export default function LoginPage() {
       >
         <div>
           <div className="text-2xl font-extrabold uppercase tracking-wide text-[#1a1a18]">
-            Pic<span className="text-[#e8630a]">tex</span>
+            Pic<span className="text-[#5b7a6b]">tex</span>
           </div>
           <p className="text-sm text-[#4a4842] mt-1">Panel de gestión</p>
         </div>
@@ -38,7 +38,7 @@ export default function LoginPage() {
             type="email"
             name="email"
             required
-            className="w-full border border-[#c9c6bd] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#e8630a]"
+            className="w-full border border-[#c9c6bd] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#5b7a6b]"
           />
         </label>
 
@@ -50,7 +50,7 @@ export default function LoginPage() {
             type="password"
             name="password"
             required
-            className="w-full border border-[#c9c6bd] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#e8630a]"
+            className="w-full border border-[#c9c6bd] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#5b7a6b]"
           />
         </label>
 
@@ -59,7 +59,7 @@ export default function LoginPage() {
         <button
           type="submit"
           disabled={pending}
-          className="w-full bg-[#1a1a18] text-[#f2f0ea] font-semibold text-sm py-2.5 rounded hover:bg-[#e8630a] transition disabled:opacity-60"
+          className="w-full bg-[#1a1a18] text-[#f2f0ea] font-semibold text-sm py-2.5 rounded hover:bg-[#5b7a6b] transition disabled:opacity-60"
         >
           {pending ? "Ingresando…" : "Ingresar"}
         </button>

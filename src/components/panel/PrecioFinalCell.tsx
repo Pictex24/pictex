@@ -32,7 +32,7 @@ export default function PrecioFinalCell({
         onChange={(e) => setValor(e.target.value)}
         onBlur={guardar}
         placeholder="Precio final"
-        className="w-28 text-xs border border-[#e0ddd3] rounded px-2 py-1 focus:outline-none focus:border-[#e8630a]"
+        className="w-28 text-xs border border-[#e0ddd3] rounded px-2 py-1 focus:outline-none focus:border-[#5b7a6b]"
         disabled={pending}
       />
       {guardado && <span className="text-emerald-600 text-xs">✓</span>}
